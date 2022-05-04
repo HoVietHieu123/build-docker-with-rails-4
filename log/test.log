@@ -1,0 +1,582 @@
+  [1m[36m (26.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (25.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (26.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (28.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (28.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (20.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:21:12 +0000
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (21.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (20.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:23:42 +0000
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (19.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (19.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:24:58 +0000
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (34.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (20.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (27.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:25:55 +0000
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (27.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (21.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:26:29 +0000
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (26.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (24.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (24.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:27:18 +0000
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (26.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (21.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:27:59 +0000
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (27.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (27.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:29:26 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 145ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (15.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:30:28 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (26.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (23.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (24.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:31:17 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (26.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (23.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (23.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:31:54 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:31:54 +0000
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (26.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (20.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:32:43 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:32:43 +0000
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (26.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (26.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:33:44 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:33:44 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (24.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (24.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (18.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:38:27 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:38:27 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (27.4ms)[0m  [1mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar NOT NULL, "url" varchar NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (26.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (27.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (22.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20220407083926')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:41:54 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:41:54 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:44:11 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:44:11 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:44:11 +0000
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:44:43 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:44:43 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:44:43 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:47:28 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:47:28 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:47:28 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:47:42 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:47:42 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:47:42 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+Completed 500 Internal Server Error in 1766ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:48:54 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:48:54 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:48:54 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:48:54.037351"], ["updated_at", "2022-04-07 08:48:54.037351"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to 
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:51:46 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:51:46 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:51:46 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:51:46.536623"], ["updated_at", "2022-04-07 08:51:46.536623"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:51:46 +0000
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:52:27 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:52:27 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:52:27 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:52:27.425602"], ["updated_at", "2022-04-07 08:52:27.425602"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:52:27 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered links/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:53:27 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:53:27 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:53:27 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:53:27.887189"], ["updated_at", "2022-04-07 08:53:27.887189"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:53:27 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:55:15 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:55:15 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:55:15 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:55:15.095846"], ["updated_at", "2022-04-07 08:55:15.095846"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:55:15 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:56:08 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:56:08 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:56:08 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:56:08.331105"], ["updated_at", "2022-04-07 08:56:08.331105"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:56:08 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:56:25 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:56:25 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:56:25 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:56:25.791670"], ["updated_at", "2022-04-07 08:56:25.791670"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:56:25 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 08:56:36 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 08:56:36 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 08:56:36 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 08:56:36.314713"], ["updated_at", "2022-04-07 08:56:36.314713"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 08:56:36 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (10145.4ms)
+Completed 200 OK in 10153ms (Views: 10150.7ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 09:02:22.094903"], ["updated_at", "2022-04-07 09:02:22.094903"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>""}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", ""], ["created_at", "2022-04-07 09:02:22.108146"], ["updated_at", "2022-04-07 09:02:22.108146"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 09:02:22 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.0ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 09:03:10.224274"], ["updated_at", "2022-04-07 09:03:10.224274"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>""}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", ""], ["created_at", "2022-04-07 09:03:10.237193"], ["updated_at", "2022-04-07 09:03:10.237193"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 09:03:10 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.0ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:19:05 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:19:05 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2022-04-07 09:23:02 +0000
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Started GET "/links/new" for 127.0.0.1 at 2022-04-07 09:23:02 +0000
+Processing by LinksController#new as HTML
+  Rendered links/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+Started POST "/links" for 127.0.0.1 at 2022-04-07 09:23:02 +0000
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "link"=>{"title"=>"This Testing Rails book is awesome!", "url"=>"http://testingrailsbook.com"}, "commit"=>"Submit!"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "links" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This Testing Rails book is awesome!"], ["url", "http://testingrailsbook.com"], ["created_at", "2022-04-07 09:23:02.359677"], ["updated_at", "2022-04-07 09:23:02.359677"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/links/1
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+Started GET "/links/1" for 127.0.0.1 at 2022-04-07 09:23:02 +0000
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered links/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m

@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        RUBY_VERSION: 2.2.0
+        NODE_MAJOR: 8
+        YARN_VERSION: 1.21.1
+    tty: true
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
